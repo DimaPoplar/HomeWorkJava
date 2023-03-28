@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Main_4 {
     public static void main(String[] args) {
-//        workString();
+        workString();
         reverseList();
     }
 
@@ -32,7 +32,6 @@ public class Main_4 {
                 }
                 case "revert" -> text.remove(text.get(text.size() - 2));
                 default -> {
-                    int i = 0;
                     text.addLast(newtext);
                     System.out.println(text);
                 }
